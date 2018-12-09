@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86B8F55C469257937025CBF /* Pods_bad_words_dictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CB5293EB8F66A0C92A8B85 /* Pods_bad_words_dictionary.framework */; };
+		F49027E2217DC5E700FD2158 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49027E1217DC5E700FD2158 /* FirstPage.swift */; };
+		F4C1EDD8216F46AA009B0300 /* QuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDD7216F46AA009B0300 /* QuestionsVC.swift */; };
+		F4C1EDDB216F4774009B0300 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDDA216F4774009B0300 /* Question.swift */; };
+		F4C1EDDD216F478C009B0300 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDDC216F478C009B0300 /* QuestionBank.swift */; };
+		F4C1EDE3216F4B2F009B0300 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDDF216F4B2E009B0300 /* ProgressHUD.m */; };
+		F4C1EDE4216F4B2F009B0300 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4C1EDE0216F4B2E009B0300 /* ProgressHUD.bundle */; };
+		F4C1EDE6216F5798009B0300 /* WordsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDE5216F5798009B0300 /* WordsListTableViewController.swift */; };
+		F4C1EDEA216F5976009B0300 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDE9216F5976009B0300 /* WordCell.swift */; };
+		F4C1EDEC216F5ACE009B0300 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDEB216F5ACE009B0300 /* Words.swift */; };
+		F4C1EDEE216F65D8009B0300 /* BrowsedWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1EDED216F65D8009B0300 /* BrowsedWordVC.swift */; };
+		F4E27567216F008C00958FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E27566216F008B00958FB9 /* AppDelegate.swift */; };
+		F4E2756C216F008C00958FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2756A216F008C00958FB9 /* Main.storyboard */; };
+		F4E2756E216F009E00958FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E2756D216F009E00958FB9 /* Assets.xcassets */; };
+		F4E27571216F009E00958FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E2756F216F009E00958FB9 /* LaunchScreen.storyboard */; };
+		F4E2757B216F09EC00958FB9 /* AllTheLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2757A216F09EC00958FB9 /* AllTheLabelsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F8DD7D0C53F0DC399E7E95 /* Pods-bad words dictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bad words dictionary.release.xcconfig"; path = "Pods/Target Support Files/Pods-bad words dictionary/Pods-bad words dictionary.release.xcconfig"; sourceTree = "<group>"; };
+		4AEECB795448DAC614A41852 /* Pods-bad words dictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bad words dictionary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bad words dictionary/Pods-bad words dictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		86CB5293EB8F66A0C92A8B85 /* Pods_bad_words_dictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bad_words_dictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49027E1217DC5E700FD2158 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		F4C1EDD7216F46AA009B0300 /* QuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVC.swift; sourceTree = "<group>"; };
+		F4C1EDDA216F4774009B0300 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F4C1EDDC216F478C009B0300 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		F4C1EDDE216F4B2D009B0300 /* bad words dictionary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bad words dictionary-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4C1EDDF216F4B2E009B0300 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		F4C1EDE0216F4B2E009B0300 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		F4C1EDE2216F4B2F009B0300 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		F4C1EDE5216F5798009B0300 /* WordsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListTableViewController.swift; sourceTree = "<group>"; };
+		F4C1EDE9216F5976009B0300 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		F4C1EDEB216F5ACE009B0300 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		F4C1EDED216F65D8009B0300 /* BrowsedWordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsedWordVC.swift; sourceTree = "<group>"; };
+		F4E27563216F008B00958FB9 /* bad words dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bad words dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E27566216F008B00958FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E2756B216F008C00958FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E2756D216F009E00958FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E27570216F009E00958FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E27572216F009E00958FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E2757A216F09EC00958FB9 /* AllTheLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTheLabelsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E27560216F008B00958FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86B8F55C469257937025CBF /* Pods_bad_words_dictionary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913A9F0DB8B738055FDB6DA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AEECB795448DAC614A41852 /* Pods-bad words dictionary.debug.xcconfig */,
+				03F8DD7D0C53F0DC399E7E95 /* Pods-bad words dictionary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBCC2802B23A38A84B141A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86CB5293EB8F66A0C92A8B85 /* Pods_bad_words_dictionary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4C1EDD9216F4759009B0300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4C1EDDA216F4774009B0300 /* Question.swift */,
+				F4C1EDDC216F478C009B0300 /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E2755A216F008B00958FB9 = {
+			isa = PBXGroup;
+			children = (
+				F4E27565216F008B00958FB9 /* bad words dictionary */,
+				F4E27564216F008B00958FB9 /* Products */,
+				913A9F0DB8B738055FDB6DA5 /* Pods */,
+				EBCC2802B23A38A84B141A7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E27564216F008B00958FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E27563216F008B00958FB9 /* bad words dictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E27565216F008B00958FB9 /* bad words dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F4C1EDD9216F4759009B0300 /* Model */,
+				F4E27566216F008B00958FB9 /* AppDelegate.swift */,
+				F4E2757A216F09EC00958FB9 /* AllTheLabelsViewController.swift */,
+				F4C1EDD7216F46AA009B0300 /* QuestionsVC.swift */,
+				F49027E1217DC5E700FD2158 /* FirstPage.swift */,
+				F4C1EDE5216F5798009B0300 /* WordsListTableViewController.swift */,
+				F4C1EDED216F65D8009B0300 /* BrowsedWordVC.swift */,
+				F4C1EDE9216F5976009B0300 /* WordCell.swift */,
+				F4C1EDEB216F5ACE009B0300 /* Words.swift */,
+				F4E2756A216F008C00958FB9 /* Main.storyboard */,
+				F4E2756D216F009E00958FB9 /* Assets.xcassets */,
+				F4E2756F216F009E00958FB9 /* LaunchScreen.storyboard */,
+				F4E27572216F009E00958FB9 /* Info.plist */,
+				F4C1EDE0216F4B2E009B0300 /* ProgressHUD.bundle */,
+				F4C1EDE2216F4B2F009B0300 /* ProgressHUD.h */,
+				F4C1EDDF216F4B2E009B0300 /* ProgressHUD.m */,
+				F4C1EDDE216F4B2D009B0300 /* bad words dictionary-Bridging-Header.h */,
+			);
+			path = "bad words dictionary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E27562216F008B00958FB9 /* bad words dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E27575216F009E00958FB9 /* Build configuration list for PBXNativeTarget "bad words dictionary" */;
+			buildPhases = (
+				33BB0FFCF9BA61B0CAED4EE5 /* [CP] Check Pods Manifest.lock */,
+				F4E2755F216F008B00958FB9 /* Sources */,
+				F4E27560216F008B00958FB9 /* Frameworks */,
+				F4E27561216F008B00958FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bad words dictionary";
+			productName = "bad words dictionary";
+			productReference = F4E27563216F008B00958FB9 /* bad words dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E2755B216F008B00958FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "A. Yes";
+				TargetAttributes = {
+					F4E27562216F008B00958FB9 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = F4E2755E216F008B00958FB9 /* Build configuration list for PBXProject "bad words dictionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E2755A216F008B00958FB9;
+			productRefGroup = F4E27564216F008B00958FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E27562216F008B00958FB9 /* bad words dictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E27561216F008B00958FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C1EDE4216F4B2F009B0300 /* ProgressHUD.bundle in Resources */,
+				F4E27571216F009E00958FB9 /* LaunchScreen.storyboard in Resources */,
+				F4E2756E216F009E00958FB9 /* Assets.xcassets in Resources */,
+				F4E2756C216F008C00958FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33BB0FFCF9BA61B0CAED4EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bad words dictionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E2755F216F008B00958FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C1EDEC216F5ACE009B0300 /* Words.swift in Sources */,
+				F4C1EDE3216F4B2F009B0300 /* ProgressHUD.m in Sources */,
+				F4E2757B216F09EC00958FB9 /* AllTheLabelsViewController.swift in Sources */,
+				F4C1EDDB216F4774009B0300 /* Question.swift in Sources */,
+				F4E27567216F008C00958FB9 /* AppDelegate.swift in Sources */,
+				F4C1EDDD216F478C009B0300 /* QuestionBank.swift in Sources */,
+				F49027E2217DC5E700FD2158 /* FirstPage.swift in Sources */,
+				F4C1EDEA216F5976009B0300 /* WordCell.swift in Sources */,
+				F4C1EDEE216F65D8009B0300 /* BrowsedWordVC.swift in Sources */,
+				F4C1EDE6216F5798009B0300 /* WordsListTableViewController.swift in Sources */,
+				F4C1EDD8216F46AA009B0300 /* QuestionsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4E2756A216F008C00958FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E2756B216F008C00958FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E2756F216F009E00958FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E27570216F009E00958FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E27573216F009E00958FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E27574216F009E00958FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E27576216F009E00958FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEECB795448DAC614A41852 /* Pods-bad words dictionary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U27B5PYYA;
+				INFOPLIST_FILE = "bad words dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Schwaller.bad-words-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bad words dictionary/bad words dictionary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E27577216F009E00958FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F8DD7D0C53F0DC399E7E95 /* Pods-bad words dictionary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U27B5PYYA;
+				INFOPLIST_FILE = "bad words dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Schwaller.bad-words-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bad words dictionary/bad words dictionary-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E2755E216F008B00958FB9 /* Build configuration list for PBXProject "bad words dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E27573216F009E00958FB9 /* Debug */,
+				F4E27574216F009E00958FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E27575216F009E00958FB9 /* Build configuration list for PBXNativeTarget "bad words dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E27576216F009E00958FB9 /* Debug */,
+				F4E27577216F009E00958FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E2755B216F008B00958FB9 /* Project object */;
+}
